@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Дата"
+            android:textSize="14sp"
+            android:textColor="@color/gray" />
+
+        <TextView
+            android:id="@+id/tv_initial_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Стартовый взнос: "
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tv_final_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Итоговая сумма: "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_700" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
